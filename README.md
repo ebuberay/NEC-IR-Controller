@@ -17,7 +17,7 @@ The receiver decodes the signal and controls LED brightness using PWM.
 - Arduino Nano
 - IR receiver module (OUT → pin 2, VCC → 5V, GND → GND)
 - LED with 220Ω resistor (pin 5 → resistor → LED → GND)
-- 15pF decoupling capacitor across  OUTPUT or VCC and GND of receiver module(not necessary but to remove noise)
+- 15pF decoupling capacitor across  OUTPUT or VCC and GND of receiver module(not necessary but to remove noise signal is not read correctly)
 
 ## Wiring Diagram
 See the diagrams folder for the full pictorial wiring diagram.
